@@ -6,14 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-<form id="myForm">
+<form method="post" action="Formresult.php">
         <div>
           <label for="prenom">ENTER FIRST NAME :</label>
           <input type="text" name="prenom" id="prenom" />
         </div>
         <div>
-          <label for="nom">ENTER LAST NAME :</label>
-          <input type="text" name="nom" id="nom" />
+          <label for="name">ENTER LAST NAME :</label>
+          <input type="text" name="fname" id="name" />
+        </div>
+        <div>
+          <input type="submit" >
         </div>
 </form>
 </body>
