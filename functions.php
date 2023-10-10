@@ -28,5 +28,5 @@ function addSalt($nameToSalt) {
 
 function encodeName($saltedName){
     $encodedName = sha1($saltedName);
-    return $encodedName;
+    return $encodedName; 
 }

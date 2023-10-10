@@ -6,14 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-<form method="post" action="Formresult.php">
+<form method="post" action="tp_1.php">
         <div>
           <label for="prenom">ENTER FIRST NAME :</label>
           <input type="text" name="prenom" id="prenom" />
         </div>
         <div>
-          <label for="name">ENTER LAST NAME :</label>
-          <input type="text" name="fname" id="name" />
+          <label for="name">ENTER PASSWORD :</label>
+          <input type="password" name="motDePasse" id="motDepasse" />
         </div>
         <div>
           <input type="submit" >
